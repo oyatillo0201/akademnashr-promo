@@ -5,7 +5,6 @@ body{
   font-family: "Roboto", "Arial", sans-serif ;
 }
 
-
 *:focus{
   outline: 2px dotted #ff7500;
   outline-offset: 3px;
@@ -15,7 +14,10 @@ body{
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content:space-between ;
+  justify-content:space-between;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo-link{
@@ -38,6 +40,7 @@ body{
 .sitenav-list{
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .sitenav-link{
@@ -60,12 +63,16 @@ body{
 }
 
 .main-link{
+  display: inline-block;
   font-size: 13px;
   line-height: 15px;
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
   transition: opacity 0.4s ease;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 .main-link:hover{
@@ -82,21 +89,26 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-content{
   width: 390px;
+
 }
 
 .orange-line{
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+  border:0;
 }
 
 .hero-img{
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading{
@@ -104,6 +116,11 @@ body{
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
  }
+
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 
  .features-heading{
   width: 440px;
@@ -117,6 +134,7 @@ body{
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .featur{
@@ -124,9 +142,13 @@ body{
 }
 
 .featur-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
 }
 
 .featur-title{
@@ -141,6 +163,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12;
 }
 
 .promo-content{
@@ -161,10 +184,13 @@ body{
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 .site-footer{
   background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .site-footers-top{
@@ -176,6 +202,7 @@ body{
 .site-footer-socials{
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-footer-socials a{
@@ -192,10 +219,12 @@ body{
 
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
+  padding: 0;
 }
 
 .site-footers-bottom{
