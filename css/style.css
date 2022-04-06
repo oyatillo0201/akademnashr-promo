@@ -259,6 +259,8 @@ body{
 
 .site-footer-socials li{
   margin-right: 16px;
+  list-style: none;
+  line-height: 19;
 }
 
 .site-footer-socials li:last-child{
