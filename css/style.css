@@ -1,8 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body{
   font-size: 16px;
+  padding: 0;
+  margin: 0;
   line-height: 1.5;
   letter-spacing: 0.5px;
   font-family: "Roboto", "Arial", sans-serif ;
+}
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 *:focus{
@@ -12,13 +28,18 @@ body{
 
 .site-header{
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
+
   border-top: 5px solid #ff7500;
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
 
 .logo-link{
   transition: opacity 0.4s ease;
@@ -101,11 +122,15 @@ body{
 .hero{
   background-color: #252420;
   color: #fff;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .hero-content{
@@ -123,9 +148,11 @@ body{
 }
 
 .hero-img{
+  margin-right: 170px;
   width: 510px;
   height: 510px;
   border-radius: 8px;
+  box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
 .hero-heading{
@@ -185,25 +212,39 @@ body{
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
   border-radius: 50%;
+  margin-bottom: 32px;
 }
 
 .featur-title{
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
+.featur-info{
+  margin: 0;
+}
+
 .promo{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.promo-inner{
+  border-radius: 12;
   background-color: #252420;
-  color: #fff;
+  padding: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 12;
+  color: #fff;
 }
 
 .promo-content{
   width: 440px;
+  padding-left: 64px;
 }
 
 .promo-heading{
@@ -261,6 +302,7 @@ body{
   margin-right: 16px;
   list-style: none;
   line-height: 19;
+
 }
 
 .site-footer-socials li:last-child{
@@ -307,6 +349,14 @@ body{
 
   .site-footer-links:last-child{
     margin-right: 0;
+  }
+
+  .site-footer-links li{
+    margin-bottom: 16px;
+  }
+
+  .site-footer-links li:last-child{
+    margin-bottom: 0;
   }
 
 .site-footer-links a {
