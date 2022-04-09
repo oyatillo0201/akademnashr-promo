@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body{
   font-size: 16px;
   padding: 0;
@@ -39,7 +38,6 @@ body{
   align-items: center;
   justify-content:space-between;
 }
-
 
 .logo-link{
   transition: opacity 0.4s ease;
@@ -90,6 +88,7 @@ body{
   opacity 0.4s ease;
 
 }
+
 .sitenav-link:hover{
   color: #FF7500;
 }
@@ -122,7 +121,6 @@ body{
 .hero{
   background-color: #252420;
   color: #fff;
-
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -135,7 +133,6 @@ body{
 
 .hero-content{
   width: 390px;
-
 }
 
 .orange-line{
@@ -185,7 +182,6 @@ body{
   letter-spacing: 0.5px;
   margin-top: 0;
   margin-bottom: 72px;
-
 }
 
 .featur-list{
@@ -318,7 +314,7 @@ body{
   color: #ff7500;
 }
 
-..site-footer-socials a:active{
+.site-footer-socials a:active{
   opacity: 0.6;
 }
 
@@ -347,15 +343,15 @@ body{
    margin-right: 68px;
   }
 
-  .site-footer-links:last-child{
+.site-footer-links:last-child{
     margin-right: 0;
   }
 
-  .site-footer-links li{
+.site-footer-links li{
     margin-bottom: 16px;
   }
 
-  .site-footer-links li:last-child{
+.site-footer-links li:last-child{
     margin-bottom: 0;
   }
 
