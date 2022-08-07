@@ -312,54 +312,72 @@ body{
 }
 
 
+/* SITE-FOOTER */
 .site-footer{
   background-color: #f8f8f8;
   padding-top: 56px;
   padding-bottom: 56px;
 }
 
-.site-footers-top{
+.site-footers__top{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.site-footer-socials{
+.site-footer__logo-link{
+  margin-right: 20px;
+  transition: opacity 0.4s ease;
+}
+
+.site-footer__logo-link:hover{
+  opacity: 0.8;
+}
+
+.site-footer__logo-link:active{
+  opacity: 0.6;
+}
+
+.site-footer__logo  {
+  display: block;
+}
+
+.site-footer__socials{
   display: flex;
   align-items: center;
   padding: 0;
   margin: 0;
 }
 
-.site-footer-socials li{
+.site-footer__list{
   margin-right: 16px;
   list-style: none;
   line-height: 19;
 
 }
 
-.site-footer-socials li:last-child{
+.site-footer__list:last-child{
   margin-right: 0;
 }
 
-.site-footer-socials a{
+.site-footer__link{
   display: block;
   color: #252420;
 }
 
-.site-footer-socials a:hover{
+.site-footer__link:hover{
   color: var(--accent-color);
 }
 
-.site-footer-socials a:active{
+.site-footer__link:active{
   opacity: 0.6;
 }
 
-.site-footer-socials svg{
+.site-footer__link svg{
   display: block;
 }
 
-.site-footer-divider{
+.site-footer__divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
   padding: 0;
@@ -367,11 +385,11 @@ body{
   margin-bottom: 64px;
 }
 
-.site-footers-bottom{
+.site-footer__bottom{
   display: flex;
 }
 
-.site-footer-links{
+.site-footer__links{
   width: 224px;
   line-height: 19px;
   list-style: none;
@@ -380,27 +398,27 @@ body{
   margin-right: 68px;
   }
 
-.site-footer-links:last-child{
+.site-footer__links:last-child{
     margin-right: 0;
   }
 
-.site-footer-links li{
+.site-footer__links li{
     margin-bottom: 16px;
   }
 
-.site-footer-links li:last-child{
+.site-footer__links li:last-child{
     margin-bottom: 0;
   }
 
-.site-footer-links a {
+.site-footer__links a {
   text-decoration: none;
   color: #252420;
 }
 
-.site-footer-links a:hover{
+.site-footer__links a:hover{
   color: var(--accent-color);
 }
 
-.site-footer-links a:active{
+.site-footer__links a:active{
   opacity: 0.6;
 }
