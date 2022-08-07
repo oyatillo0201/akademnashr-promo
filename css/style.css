@@ -258,11 +258,11 @@ body{
   margin-bottom: 160px;
 }
 
-.promo-container {
+.promo__container {
   background-color: #252420;
 }
 
-.promo-inner{
+.promo__inner{
   position: relative;
   border-radius: 12;
   padding: 64px;
@@ -272,11 +272,11 @@ body{
   color: #fff;
 }
 
-.promo-content{
+.promo__content{
   width: 440px;
 }
 
-.promo-heading{
+.promo__heading{
   font-size: 40px;
   line-height: 48px;
   font-family:var(--heading-font);
@@ -284,24 +284,24 @@ body{
   margin-top: 0;
 }
 
-.promo-info-wraper{
+.promo__info-wraper{
   margin-bottom: 24px;
 }
 
-.promo-text{
+.promo__text{
   margin: 0;
   margin-bottom: 12px;
 }
 
-.promo-text:last-child{
+.promo__text:last-child{
   margin-bottom: 0;
 }
 
-.promo-highlight{
+.promo__highlight{
   color: var(--accent-color);
 }
 
-.promo-img{
+.promo__img{
   position: absolute;
   right: 64px;
   bottom: 64px;
@@ -310,6 +310,7 @@ body{
   object-fit: cover;
   border-radius: 12px;
 }
+
 
 .site-footer{
   background-color: #f8f8f8;
