@@ -164,7 +164,7 @@ body{
   margin-right: 20px;
 }
 
-.hero__orange-line{
+.orange-line{
   width: 80px;
   height: 3px;
   background-color: rgba(255, 117, 0, 1);
