@@ -1,7 +1,7 @@
 :root {
-   --accent-color: #ff7500;
-   --text-font:"Roboto", "Arial", sans-serif;
-   --heading-font:"Roboto Condensed", "Roboto", "Arial", sans-serif;
+  --accent-color: #ff7500;
+  --text-font:"Roboto", "Arial", sans-serif;
+  --heading-font:"Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
 
@@ -46,41 +46,40 @@ body{
 
 .site-header{
   background-color: #fff;
-
   border-top: 5px solid var(--accent-color);
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.site-header-container{
+.site-header__container{
   display: flex;
   align-items: center;
   justify-content:space-between;
 }
 
-.logo-link{
+.site-header__link{
   margin-right: 20px;
   transition: opacity 0.4s ease;
 }
 
-.logo-link:hover{
+.site-header__link:hover{
   opacity: 0.8;
 }
 
-.logo-link:active{
+.site-header__link:active{
   opacity: 0.6;
 }
 
-.logo-link img{
+.site-header__logo {
   display: block;
 }
 
-.site-header-actions{
+.site-header__actions{
   display: flex;
   align-items: center;
 }
 
-.sitenav-list{
+.sitenav__list{
   list-style: none;
   display: flex;
   padding: 0;
@@ -88,15 +87,15 @@ body{
   margin-right: 32px;
 }
 
-.sitenav-item{
+.sitenav__item{
   margin-right: 32px;
 }
 
-.sitenav-item:last-child{
+.sitenav__item:last-child{
   margin-right: 0;
 }
 
-.sitenav-link{
+.sitenav__link{
   padding-bottom: 4px;
   font-weight: 500;
   font-size: 13px;
@@ -110,20 +109,20 @@ body{
 
 }
 
-.sitenav-link:hover{
+.sitenav__link:hover{
   color:var(--accent-color);
 }
 
-.sitenav-link:active{
+.sitenav__link:active{
   opacity: 0.6;
 }
 
-.sitenav-link-active {
+.sitenav__link-active {
   white-space: nowrap;
   border-bottom: 3px solid #FF7500;;
 }
 
-.main-link{
+.button{
   display: inline-block;
   font-size: 13px;
   line-height: 15px;
@@ -136,11 +135,11 @@ body{
   font-weight: bold;
 }
 
-.main-link:hover{
+.button:hover{
   opacity: 0.8;
 }
 
-.main-link:active{
+.button:active{
   opacity: 0.6;
 }
 
@@ -175,7 +174,7 @@ body{
 .hero-img{
   position: absolute;
   right: 20px;
-  top: -40px;
+  top: 6px;
   width: 510px;
   height: 510px;
   border-radius: 8px;
@@ -254,6 +253,10 @@ body{
 }
 
 /* PROMO */
+.promo {
+  margin-bottom: 160px;
+}
+
 .promo-container {
   background-color: #252420;
 }
