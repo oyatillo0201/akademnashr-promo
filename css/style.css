@@ -143,6 +143,8 @@ body{
   opacity: 0.6;
 }
 
+
+/* HERO */
 .hero{
   background-color: #252420;
   color: #fff;
@@ -150,19 +152,19 @@ body{
   padding-bottom: 80px;
 }
 
-.hero-container{
+.hero__container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
 
-.hero-content{
+.hero__content{
   width: 390px;
   margin-right: 20px;
 }
 
-.orange-line{
+.hero__orange-line{
   width: 80px;
   height: 3px;
   background-color: rgba(255, 117, 0, 1);
@@ -171,7 +173,7 @@ body{
   margin-bottom: 40px;
 }
 
-.hero-img{
+.hero__img{
   position: absolute;
   right: 20px;
   top: 6px;
@@ -181,7 +183,7 @@ body{
   box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
-.hero-heading{
+.hero__heading{
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 24px;
@@ -189,14 +191,11 @@ body{
   font-family: var(--heading-font);
  }
 
-.hero-text{
+.hero__text{
   margin-top: 0;
   margin-bottom: 32px;
 }
 
-.hero-text{
-  margin-bottom: 32px;
-}
 
 .features{
   padding-top: 210px;
